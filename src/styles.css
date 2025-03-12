@@ -18,3 +18,28 @@
     display : flex;
     flex-direction : column;
 }
+
+.folder > div > button{
+    font-size: 15px;
+    background-color: white;
+}
+
+.inputconatiner{
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.inputconatiner > span{
+    margin-top: 5px;
+}
+
+.inputConatiner__input {
+    margin:  6px 0 0px 0;
+    padding: 5px;
+    display: flex;
+    border: 1px solid lightgray;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}

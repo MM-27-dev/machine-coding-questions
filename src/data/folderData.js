@@ -1,8 +1,8 @@
 const explorer = {
-    id:"1",
-    name: "root",
-    isFolder: true,
-    items: [
+    id:"1", // Root folder
+    name: "root",      // Root folder's name
+    isFolder: true,    // Identifies this as a folder
+    items: [           // Contains child elements (folders/files)
       {
         id:"2",
         name: "public",
