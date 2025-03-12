@@ -1,10 +1,12 @@
 :root {
-    --btn: #dbdbdb;
-    --btn-hover: #cacaca;
-    --item-bg: #f0f0f0;
-    --modal-bg: rgba(141, 141, 141, 0.541);
-  }
-  body {
-    font-family: sans-serif;
-    padding: 0 10px;
-  }
+  --btn: #dbdbdb;
+  --btn-hover: #cacaca;
+  --item-bg: #f0f0f0;
+  --modal-bg: rgba(141, 141, 141, 0.541);
+}
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+
