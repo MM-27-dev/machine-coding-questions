@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <header class="header">
+        <h1>Employee dtabase Management</h1>
+        <button class="createEmployee">Add Employee</button>
+      </header>
+    </div>
+
+    <div class="employees">
+      <div class="employees__names">
+        <span class="employees__names--title">Employess List</span>
+        <div class="employees__names--list"></div>
+      </div>
+
+      <div class="employees__single">
+        <span class="employees__single--title">Employess Information</span>
+        <div class="employees__single--info"></div>
+      </div>
+
+
+    </div>
+    <!-- Add Employee model -->
+    <div class="addEmployee">
+      <form class="adddEmployee_create">
+        Add New Employee
+        <div>
+
+          <input type="text" name="firstName" placeholder="First Name" required>
+          <input type="text" name="lastName" placeholder="Last Name" required>
+        </div>
+        <input type="text" name="imageUrl" placeholder="Image URL (Optional)" >
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="number" name="salary" placeholder="salary" required>
+        <input type="text" name="address" placeholder="Address" required>
+        <input type="date" name="dob" placeholder="Date of Birth" 
+        class="adddEmployee_create--dob" required>
+        <input type="submit" class="adddEmployee_create--submit" value="Submit">
+      </form>
+    </div>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
